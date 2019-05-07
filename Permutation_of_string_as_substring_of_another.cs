@@ -1,3 +1,9 @@
+/// <summary>
+/// Finds the number of permurations in a given text.
+/// </summary>
+/// <param name="text">Input text to find the permurations from.</param>
+/// <param name="pattern">The pattern to search.</param>
+/// <returns>Number of permutations in a given text.</returns>
 public int PermutationOfPatternInString(string text, string pattern)
 {
     int matchCount = 0;
