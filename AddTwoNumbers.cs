@@ -1,3 +1,9 @@
+/// <summary>
+/// Adds the numbers of linked list 1 and linked list 2 and returns the head node of summed linked list.
+/// </summary>
+/// <param name="l1"></param>
+/// <param name="l2"></param>
+/// <returns></returns>
 public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
 {
     if (l1 == null || l2 == null)
