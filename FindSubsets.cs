@@ -5,6 +5,12 @@ public HashSet<string> FindSubsets(string input)
     return subsets;
 }
 
+/// <summary>
+/// Loads the subset.
+/// </summary>
+/// <param name="input"></param>
+/// <param name="chosen"></param>
+/// <param name="subsets"></param>
 private void LoadSubsets(string input, string chosen, HashSet<string> subsets)
 {
     subsets.Add(chosen);
